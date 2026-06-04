@@ -27,6 +27,33 @@ The lab was designed and implemented using Microsoft Azure services and aligns w
 
 ---
 
+### Network Architecture
+
+
+                         Internet
+                             |
+                      Azure Firewall
+                             |
+                      Hub VNet
+                    (10.0.0.0/16)
+                             |
+        ---------------------------------------
+        |                                     |
+        |                                     |
+   App Spoke VNet                      DB Spoke VNet
+   (10.1.0.0/16)                      (10.2.0.0/16)
+        |                                     |
+   App Subnet                           DB Subnet
+        |                                     |
+    VM-App-01                           VM-DB-01
+
+                             |
+                      Azure Bastion
+                   Secure RDP Access 
+
+                   
+
+
 ## Skills Demonstrated
 
 * Azure Virtual Networks (VNets)
