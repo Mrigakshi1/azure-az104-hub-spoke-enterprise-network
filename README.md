@@ -212,7 +212,8 @@ Created and assigned Network Security Groups to control inbound and outbound tra
 
 ### Screenshot
 
-![NSG Configuration](screenshots/09-network-security-groups.png)
+![NSG Configuration](screenshots/09-network-security-groups1.png)
+![NSG Configuration](screenshots/09-network-security-groups2.png)
 
 ---
 
