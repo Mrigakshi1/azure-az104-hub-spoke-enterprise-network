@@ -151,7 +151,8 @@ Created two virtual machines to simulate enterprise workloads.
 
 ### Screenshot
 
-![Virtual Machines](screenshots/06-virtual-machines.png)
+![Virtual Machines](screenshots/06-virtual-machines-app.png)
+![Virtual Machines](screenshots/06-virtual-machines-db.png)
 
 ### Notes
 
