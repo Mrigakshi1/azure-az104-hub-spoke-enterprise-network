@@ -174,9 +174,6 @@ Established connectivity between the Hub and Spoke networks.
 ### Screenshot
 
 ![VNet Peering](screenshots/07-vnet-peering1.png)
-![VNet Peering](screenshots/07-vnet-peering2.png)
-![VNet Peering](screenshots/07-vnet-peering3.png)
-
 ### Notes
 
 VNet Peering allows private communication between Azure virtual networks using Microsoft's backbone network.
