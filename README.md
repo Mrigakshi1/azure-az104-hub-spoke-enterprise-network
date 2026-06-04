@@ -186,7 +186,8 @@ Implemented Azure Bastion to securely access virtual machines.
 
 ### Screenshot
 
-![Azure Bastion](screenshots/08-azure-bastion.png)
+![Azure Bastion](screenshots/08-azure-bastion-vmapp.png)
+![Azure Bastion](screenshots/08-azure-bastion-vmdb.png)
 
 ### Notes
 
