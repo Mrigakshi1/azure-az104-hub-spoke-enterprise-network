@@ -10,7 +10,8 @@ The lab was designed and implemented using Microsoft Azure services and aligns w
 
 ## Architecture Diagram
 
-![Architecture Diagram](screenshots/01-architecture-diagram.png)
+![Architecture Diagram](screenshots/01-architecture-diagram1.png)
+![Architecture Diagram](screenshots/01-architecture-diagram2.png)
 
 ### Architecture Components
 
