@@ -239,6 +239,10 @@ Created User Defined Routes (UDRs) to direct traffic through Azure Firewall.
 
 ![Route Tables](screenshots/11-route-tables.png)
 
+![Route Tables](screenshots/11-route-tables-configuration.png)
+
+![Route Tables](screenshots/11-route-tables-subnet-association.png)
+
 ### Notes
 
 Traffic routing through Azure Firewall enables centralized inspection and control of network traffic.
