@@ -263,7 +263,20 @@ Traffic routing through Azure Firewall enables centralized inspection and contro
 
 # Step 11 - Configure Azure Key Vault
 
-Created Azure Key Vault to securely store administrative credentials and secrets.
+Created an Azure Key Vault to securely store sensitive information used within the environment.
+
+### Secret Stored
+
+| Secret Name | Purpose |
+|-------------|----------|
+| vm-admin-password | Administrator password for virtual machines |
+
+### Benefits
+
+- Centralized secret management
+- Improved security posture
+- Reduced exposure of sensitive information
+- Integration with Azure services
 
 ### Screenshot
 
