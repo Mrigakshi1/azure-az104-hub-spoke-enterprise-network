@@ -288,21 +288,28 @@ Azure Key Vault helps protect sensitive information and supports secure applicat
 
 ---
 
-# Step 12 - Configure Monitoring
+## Step 12 - Configure Monitoring
 
-Enabled monitoring and diagnostics using Azure Monitor.
+Enabled Azure Monitor to collect and visualize virtual machine performance metrics.
 
-### Metrics Monitored
+### Metrics Collected
 
-* CPU Utilization
-* Memory Usage
-* Network Traffic
-* Virtual Machine Health
+- Percentage CPU
+- Network In Total
+- VM Health and Availability
 
+### Benefits
+
+- Real-time monitoring
+- Resource utilization tracking
+- Performance analysis
+- Operational visibility
 ### Screenshot
 
-![Azure Monitor](screenshots/13-azure-monitor.png)
+![Azure Monitor](screenshots/13-cpu-monitoring.png)
+![Azure Monitor](screenshots/14-network-monitoring.png)
 
+Azure Monitor was used to observe VM health, availability, CPU utilization, and network activity. Basic monitoring capabilities were validated through Azure Monitor metrics and VM health dashboards.
 ---
 
 # Step 13 - Test Connectivity
