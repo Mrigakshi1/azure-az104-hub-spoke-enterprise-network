@@ -233,7 +233,19 @@ Azure Firewall provides centralized network traffic inspection and security enfo
 
 # Step 10 - Configure Route Tables
 
-Created User Defined Routes (UDRs) to direct traffic through Azure Firewall.
+Created a User Defined Route (UDR) to direct outbound traffic from spoke networks through Azure Firewall.
+
+### Route Configuration
+
+| Setting | Value |
+|----------|----------|
+| Destination | 0.0.0.0/0 |
+| Next Hop Type | Virtual Appliance |
+| Next Hop Address | Azure Firewall Private IP |
+
+### Purpose
+
+The route table ensures that traffic originating from spoke networks is inspected by Azure Firewall before reaching external destinations, implementing a centralized security model commonly used in enterprise Hub-and-Spoke architectures.
 
 ### Screenshot
 
